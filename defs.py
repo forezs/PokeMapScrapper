@@ -1,14 +1,8 @@
 import sys
 import requests
 import fake_useragent
-from PIL import Image
-from mss import mss
-import numpy as np
 from time import sleep, time
 import pyautogui, keyboard, cv2
-import pytesseract
-import win32api
-import win32con
 import telebot
 from math import radians, cos, sin, asin, sqrt
 from config import TOKEN
